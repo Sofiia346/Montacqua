@@ -1,0 +1,352 @@
+.navbar-brand img{
+    vertical-align: middle;
+    position: relative;
+    left: -80px;
+}
+.navbar.bg-body-tertiary{
+    background-color: transparent !important;
+    padding: 50px;
+    position: absolute;
+}
+.reservation{
+    text-decoration: none;
+    color: white;
+}
+.offcanvas-body{
+    background-color: #883c36;
+}
+.offcanvas-header{
+    background-color: #883c36;
+}
+.offcanvas-title{
+    color: white;
+}
+.nav-item a{
+    color: white;
+    font-size: 32px;
+    line-height: 42px;
+    margin-bottom: 25px;
+    font-family: 'Cormorant Garamond', italic;
+}
+section{
+    height: auto;
+}
+#main {
+    background-image: url(photos/banner-bg.png);
+    background-size: cover;
+    background-position: center;
+}
+.main-wrapper{
+    padding-top: 400px;
+    padding-bottom: 100px;
+    margin-left: 50px ;   
+}
+.main-content{
+    width: 80%;
+    max-width: 1720px;
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
+    padding-top: 76px;
+}
+.top{
+    padding-left: 300px;
+    font-size: 60px;
+    line-height: 70px;
+    font-style: italic;
+    font-family: 'Cormorant Garamond';
+}
+.main-content h1{
+    font-family: 'Cormorant Garamond';
+    font-size: 100px;
+    line-height: 110px;
+    font-weight: 400;
+}
+.main-about-wrapper{
+    margin-left: 100px; 
+    padding-top: 120px;
+    padding-bottom: 120px;
+    margin-right: 100px;
+}
+.content-about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    color:#302c2a;
+    font-family: 'Cormorant Garamond';
+    text-align: center;
+    width: 1000px;
+    font-size: 40px;
+    padding-bottom: 100px;
+}
+.invitation{
+    border-bottom: 1px solid #e2c3a9;
+    padding-bottom: 100px;
+}
+.img-about img{
+    max-width: 340px;
+}
+.img-about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    letter-spacing: 2px;
+}
+.info{
+    font-family: 'Cormorant Garamond';
+    font-size: 26px;
+    line-height: 34px;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.no{
+    margin-top: 25px;
+}
+.no::before {
+    content: "";
+    display: inline-block;
+    width: 20px; 
+    border-top: 2px solid #e2c3a9;;
+    margin-right: 10px;
+    position: relative;
+    padding-bottom: 6px;
+}
+.treat-title h2{
+    width:290px;
+    font-size: 46px;
+    color: #302c2a;
+    font-family: 'Cormorant Garamond';
+    line-height: 56px;
+    letter-spacing: 2px;
+    margin-top: 100px;                   
+}
+.treat-text{
+    width: 250px;
+    margin-top: 20px;
+}
+.treat-wraper{
+    margin-top: 80px;
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+}
+.treat{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.another{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.another img{
+    width: 500px;
+}
+#book{
+    background-color: #883c36;
+}
+.book-wraper{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.book-title{
+    font-family: 'Cormorant Garamond';
+    font-weight: 400;
+    color: white;
+}
+.book-title h2{
+    font-size: 60px;
+    line-height: 70px;
+    width: 810px;
+    margin-left: 240px;
+}
+.book-text{
+    text-align: center;
+    color: white;
+    width: 904px;
+    margin-left: 180px;
+    font-size: 20px;
+    margin-top: 45px;
+}
+#photo img{
+    width: 1265px;
+    vertical-align: middle;
+    display: inline-block;
+}
+#blog{
+    background-color: #f5f0ec;
+}
+.blog-wraper-info{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.blog-info{
+    display: block;
+}
+.blog-info img{
+    width: 300px;
+}
+#contact, #footer{
+    background-color: #302c2a;
+}
+.button{
+    margin-top: 65px;
+}
+button{
+    padding: 14px 40px;
+    background-color: #883c36;
+    color: #fff;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+    text-align: center;
+}
+.button a{
+    text-decoration: none;
+    color: white;
+    border-radius: none;
+}
+.button-3{
+    padding: 14px 40px;
+    background-color: #883c36;
+    color: #fff;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+    text-align: center;
+}
+.button-3 a{
+    text-decoration: none;
+    color: white;
+    border-radius: none;
+}
+.button-3{
+    margin-top: 100px;
+    margin-left: 500px;
+}
+.blog-title h2{
+    font-size: 46px;
+    line-height: 56px;
+    font-family: 'Cormorant Garamond';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blog-info{
+    margin-top: 50px;
+}
+.blog-info h3{
+    margin-top: 30px;
+    font-size: 28px;
+    line-height: 38px;
+    font-family: 'Cormorant Garamond';
+}
+.blog-info span{
+    text-align: center;
+}
+.no span{
+    display: column;
+}
+.comment h3{
+    font-style: italic;
+    font-size: 40px;
+    line-height: 54px;
+    width: 1000px;
+    text-align: center;
+}
+.main-about-wrapper.testimonials{
+    margin-left: 100px; 
+    padding-top: 120px;
+    padding-bottom: 120px;
+    margin-right: 100px;
+}
+.comment span{
+    text-align: center;
+    position: relative;
+    top: 30px;
+    font-size: 20px;
+}
+.img-author{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+.nick{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    font-size: 20px;
+}
+.nickname{
+    text-align: center;
+    font-size: 20px;
+}
+.questions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Cormorant Garamond';
+}
+.instryk{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+    width: 550px;
+    margin-left: 250px;
+}
+.form{
+    color: white;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+.button-2{
+    margin-top: 50px;
+    margin-left: 420px;
+}
+.button-2 a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: #e2c3a9;
+}
+.main-about-wrapper.contact{
+    border-bottom: 1px solid gray ;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 20%;
+}
+.footer-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+.lin {
+    color: white;
+    text-decoration: none;
+    margin-right: 35px;
+}
+.no-link{
+    color: white;
+    position: relative;
+    top: 9px;
+}
